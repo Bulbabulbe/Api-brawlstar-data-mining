@@ -1,0 +1,6 @@
+requests
+mysql-connector-python
+pandas
+matplotlib
+seaborn
+plotly
