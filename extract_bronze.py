@@ -8,7 +8,7 @@ API_URL = "https://api.brawlify.com/v1/brawlers"
 
 
 def extract_and_store_brawlers():
-    response = requests.get(API_URL, timeout=30)
+    response = requests.get(API_URL, timeout=30, verify=False)
     response.raise_for_status()
     raw_payload = response.json()
 
